@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ดาวน์โหลดแอป</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      color: white;
+    }
+
+    .card {
+      background: #111827;
+      padding: 30px;
+      border-radius: 16px;
+      width: 320px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      margin: 12px 0;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+      background: #2563eb;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      background: #1d4ed8;
+      transform: scale(1.02);
+    }
+
+    .note {
+      font-size: 12px;
+      color: #9ca3af;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h2>เลือกเวอร์ชันแอป</h2>
+
+    <a class="btn" href="app-release.apk" download>
+      📥 ดาวน์โหลด T -|
+    </a>
+
+    <a class="btn" href="T1.apk" download>
+      📥 ดาวน์โหลด T1
+    </a>
+
+    <a class="btn" href="T2.apk" download>
+      📥 ดาวน์โหลด T2
+    </a>
+
+    <div class="note">
+      * ต้องอนุญาตติดตั้งจากแหล่งที่ไม่รู้จัก
+    </div>
+  </div>
+
+</body>
+</html>
